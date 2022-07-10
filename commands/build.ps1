@@ -15,6 +15,9 @@ function powershellMain {
     Write-Host "PowerShell Version: " $PSVersionTable.PSVersion
     $gov = go version
     Write-Host "Golang Version: " $gov
+    cd server
+    go build .\main.go
+    cd ..
 }
 
 powershellMain
