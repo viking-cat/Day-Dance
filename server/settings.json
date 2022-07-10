@@ -1,0 +1,5 @@
+{
+    "serverName" : "smurf server",
+    "port" : 8081,
+    "extra": "nana"
+}
